@@ -1,0 +1,22 @@
+Thank you for applying to Autlo. To better assess your skills we are sending you a test assignment described below.
+
+If you have any questions please let us know.
+ 
+Task: create a simple React web app. 
+
+The app has a data file (the file is attached to this letter - data.json) that contains coordinates.
+
+The app should be able to filter coordinates by creation date and calculate the distance between coordinates that the user 
+has selected. 
+ 
+App should have a map with an input field for inserting time for filtering coordinates. 
+
+The coordinates that are created in the selected time window should be placed on the map as markers.
+ 
+If exactly 2 markers are selected by the user (selected markers should be highlighted in some way or in a different color) 
+
+a button for calculating distance should become visible. 
+
+Upon pressing that button the app should calculate distance between the selected points and show the result to the user. 
+ 
+Bonus points for any extra flair you can add. After you're done, push the code to a public GitHub/BitBucket repository and send the link to this email. The repository should include instructions on how to run the app. Also please send an estimate how long the task took you.
