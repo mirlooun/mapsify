@@ -1,0 +1,37 @@
+.container {
+  position: absolute;
+  padding: 1rem 4rem;
+  width: 100%;
+  box-sizing: border-box;
+  height: 45vh;
+  border-radius: 1rem;
+  z-index: -1;
+  transform: translateY(-270px);
+
+  background-color: white;
+}
+
+.filterItem {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.filterItem label {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.filterItem label,
+input {
+  display: block;
+  min-width: 100%;
+  text-align: center;
+}
+
+.btnContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 1rem;
+  padding: 10px 6em;
+}

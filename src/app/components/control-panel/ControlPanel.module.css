@@ -1,0 +1,24 @@
+.container {
+  position: fixed;
+  width: 500px;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.innerContainer {
+  display: flex;
+  justify-content: space-around;
+  padding: 12px 10px;
+
+  background-color: #71bbec;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    width: 100vw;
+  }
+}

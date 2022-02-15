@@ -1,0 +1,44 @@
+.container {
+  position: absolute;
+  top: 10vh;
+  left: 8vw;
+  width: fit-content;
+  padding: calc(0.5rem + 1vw) calc(1rem + 2vw);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  background-color: white;
+
+  font-size: clamp(12px, 1vw + 5px, 15px);
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+span {
+  margin-right: 0.1em;
+}
+
+.routeResult {
+  padding: 1rem;
+  color: white;
+  background-color: green;
+}
+
+.controls {
+  margin-left: 0.2rem;
+}
+
+li > p {
+  display: inline-block;
+}
+
+span.line::before {
+  content: "|";
+}
