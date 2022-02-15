@@ -20,12 +20,10 @@ const SummaryContextProvider: React.FC = (props) => {
 
   const handleWaypointAdd = (marker: Marker, isSelected: boolean) => {
     if (isSelected) {
-      console.log("Removing from current waypoints");
       setCurrentWaypoints((prev) => [
         ...prev.filter((m) => m.id !== marker.id),
       ]);
     } else {
-      console.log("Adding to current waypoints");
       setCurrentWaypoints((prev) => [
         ...prev.filter((m) => m.id !== marker.id),
         marker,

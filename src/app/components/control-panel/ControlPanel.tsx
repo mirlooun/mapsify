@@ -39,8 +39,6 @@ const ControlPanel = ({
     setDirections(null);
   };
 
-  console.log("Control panel rendered");
-
   return (
     <div className={s.container}>
       <FilterContextProvider>

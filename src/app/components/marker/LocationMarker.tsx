@@ -19,7 +19,6 @@ const LocationMarker = ({
   const [isSelected, setSelected] = useState(false);
   const [isClickable, setClickable] = useState(true);
 
-  console.log("Marker rendered");
   //Mark marker as selected if it is in current waypoints array
   useEffect(() => {
     if (currentWaypoints.length === 0 && isSelected) {

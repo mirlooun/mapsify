@@ -49,9 +49,6 @@ const Map = ({ center, directions, markers }: MapProps) => {
     mapRef.current = undefined;
   }, []);
 
-  console.log("Map rendered");
-  
-
   return (
     <div className={s.container}>
       <GoogleMap

@@ -31,9 +31,6 @@ const RouteSummary = ({ directions }: RouteSummaryProps) => {
     setCurrentWaypoints([...currentWaypoints]);
   };
 
-  console.log("Summary rendered");
-  console.log(currentWaypoints);
-
   return (
     <div className={s.container}>
       <p>Chosen waypoints</p>
